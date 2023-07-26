@@ -5,3 +5,4 @@ mongoose.connect(process.env.MONGO).then(()=>{
 }).catch((error)=>{
     console.log(error);
 })
+

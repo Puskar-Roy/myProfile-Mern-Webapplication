@@ -20,10 +20,10 @@ const userSchema = new mongoose.Schema({
     unique: true,
   },
   firstName: {
-    type: Number,
+    type: String,
   },
   lastName: {
-    type: Number,
+    type: String,
   },
   phone: {
     type: Number,
